@@ -1,0 +1,1 @@
+ADD.vhd,vhdl,xil_defaultlib,../../../../minimap_fpga.srcs/sources_1/ip/ADD/sim/ADD.vhd,

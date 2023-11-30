@@ -1,0 +1,2 @@
+BT_RAM.v,verilog,xil_defaultlib,../../../../minimap_fpga.srcs/sources_1/ip/BT_RAM/sim/BT_RAM.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

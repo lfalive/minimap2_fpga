@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../../minimap_fpga.srcs/sources_1/ip/SUB/sim/SUB.vhd" \
+
+nosort

@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="test_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="874315000000fs"></ZoomStartTime>
+      <ZoomEndTime time="884455000001fs"></ZoomEndTime>
+      <Cursor1Time time="882695000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="178"></NameColumnWidth>
+      <ValueColumnWidth column_width="191"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="162" />
+   <wave_markers>
+      <marker label="" time="3281200000" />
+      <marker label="" time="475000000" />
+   </wave_markers>
+   <wvobject fp_name="divider700" type="divider">
+      <obj_property name="label">BT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/max_result">
+      <obj_property name="ElementShortName">max_result[47:0]</obj_property>
+      <obj_property name="ObjectShortName">max_result[47:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/row_max_result">
+      <obj_property name="ElementShortName">row_max_result[47:0]</obj_property>
+      <obj_property name="ObjectShortName">row_max_result[47:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/col_max_result">
+      <obj_property name="ElementShortName">col_max_result[47:0]</obj_property>
+      <obj_property name="ObjectShortName">col_max_result[47:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/diagonal_score">
+      <obj_property name="ElementShortName">diagonal_score[15:0]</obj_property>
+      <obj_property name="ObjectShortName">diagonal_score[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider693" type="divider">
+      <obj_property name="label">TB</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/H_row_max_last">
+      <obj_property name="ElementShortName">H_row_max_last[15:0]</obj_property>
+      <obj_property name="ObjectShortName">H_row_max_last[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/H_row_max_last_location">
+      <obj_property name="ElementShortName">H_row_max_last_location[31:0]</obj_property>
+      <obj_property name="ObjectShortName">H_row_max_last_location[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/H_col_max">
+      <obj_property name="ElementShortName">H_col_max[15:0]</obj_property>
+      <obj_property name="ObjectShortName">H_col_max[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/H_col_max_location">
+      <obj_property name="ElementShortName">H_col_max_location[31:0]</obj_property>
+      <obj_property name="ObjectShortName">H_col_max_location[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/col_max_out">
+      <obj_property name="ElementShortName">col_max_out[47:0]</obj_property>
+      <obj_property name="ObjectShortName">col_max_out[47:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/\sw_send[0].s /sys_clk">
+      <obj_property name="ElementShortName">sys_clk</obj_property>
+      <obj_property name="ObjectShortName">sys_clk</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/diagonal_score">
+      <obj_property name="ElementShortName">diagonal_score[15:0]</obj_property>
+      <obj_property name="ObjectShortName">diagonal_score[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/data_out">
+      <obj_property name="ElementShortName">data_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/u0/pkt_num">
+      <obj_property name="ElementShortName">pkt_num[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pkt_num[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/\sw_send[0].s /cigar_dut/tb_start">
+      <obj_property name="ElementShortName">tb_start</obj_property>
+      <obj_property name="ObjectShortName">tb_start</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[0].s /read_len">
+      <obj_property name="ElementShortName">read_len[15:0]</obj_property>
+      <obj_property name="ObjectShortName">read_len[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[0].s /read_cnt">
+      <obj_property name="ElementShortName">read_cnt[15:0]</obj_property>
+      <obj_property name="ObjectShortName">read_cnt[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[0].s /cigar_dut/i_pos">
+      <obj_property name="ElementShortName">i_pos[7:0]</obj_property>
+      <obj_property name="ObjectShortName">i_pos[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[0].s /cigar_dut/j_pos">
+      <obj_property name="ElementShortName">j_pos[15:0]</obj_property>
+      <obj_property name="ObjectShortName">j_pos[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[0].s /cigar_dut/t_len">
+      <obj_property name="ElementShortName">t_len[15:0]</obj_property>
+      <obj_property name="ObjectShortName">t_len[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[0].s /read_len_left">
+      <obj_property name="ElementShortName">read_len_left[15:0]</obj_property>
+      <obj_property name="ObjectShortName">read_len_left[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[0].s /hap_len_left">
+      <obj_property name="ElementShortName">hap_len_left[15:0]</obj_property>
+      <obj_property name="ObjectShortName">hap_len_left[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[0].s /read_len_right">
+      <obj_property name="ElementShortName">read_len_right[15:0]</obj_property>
+      <obj_property name="ObjectShortName">read_len_right[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[0].s /hap_len_right">
+      <obj_property name="ElementShortName">hap_len_right[15:0]</obj_property>
+      <obj_property name="ObjectShortName">hap_len_right[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/fifo_write_en">
+      <obj_property name="ElementShortName">fifo_write_en</obj_property>
+      <obj_property name="ObjectShortName">fifo_write_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[0].s /n_cigar">
+      <obj_property name="ElementShortName">n_cigar[7:0]</obj_property>
+      <obj_property name="ObjectShortName">n_cigar[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/\sw_send[0].s /cigar_en">
+      <obj_property name="ElementShortName">cigar_en</obj_property>
+      <obj_property name="ObjectShortName">cigar_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[0].s /cigar">
+      <obj_property name="ElementShortName">cigar[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cigar[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider2079" type="divider">
+      <obj_property name="label">BT_RAM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/\sw_send[0].s /flag_4">
+      <obj_property name="ElementShortName">flag_4</obj_property>
+      <obj_property name="ObjectShortName">flag_4</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/\sw_send[0].s /ram_bt_w_en">
+      <obj_property name="ElementShortName">ram_bt_w_en</obj_property>
+      <obj_property name="ObjectShortName">ram_bt_w_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[0].s /read_cnt">
+      <obj_property name="ElementShortName">read_cnt[15:0]</obj_property>
+      <obj_property name="ObjectShortName">read_cnt[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[0].s /fifo_bt_in">
+      <obj_property name="ElementShortName">fifo_bt_in[63:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_bt_in[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[0].s /addra">
+      <obj_property name="ElementShortName">addra[10:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[10:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[0].s /cal_current_state">
+      <obj_property name="ElementShortName">cal_current_state[8:0]</obj_property>
+      <obj_property name="ObjectShortName">cal_current_state[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/\sw_send[0].s /col_en">
+      <obj_property name="ElementShortName">col_en</obj_property>
+      <obj_property name="ObjectShortName">col_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/\sw_send[0].s /last_pe_vld">
+      <obj_property name="ElementShortName">last_pe_vld</obj_property>
+      <obj_property name="ObjectShortName">last_pe_vld</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/p0/pe0/start_in">
+      <obj_property name="ElementShortName">start_in</obj_property>
+      <obj_property name="ObjectShortName">start_in</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/p0/pe0/start_out">
+      <obj_property name="ElementShortName">start_out</obj_property>
+      <obj_property name="ObjectShortName">start_out</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/\sw_send[0].s /bt_en">
+      <obj_property name="ElementShortName">bt_en</obj_property>
+      <obj_property name="ObjectShortName">bt_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[1].s /read_len">
+      <obj_property name="ElementShortName">read_len[15:0]</obj_property>
+      <obj_property name="ObjectShortName">read_len[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/\sw_send[1].s /ram_bt_w_en">
+      <obj_property name="ElementShortName">ram_bt_w_en</obj_property>
+      <obj_property name="ObjectShortName">ram_bt_w_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[1].s /fifo_bt_in">
+      <obj_property name="ElementShortName">fifo_bt_in[63:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_bt_in[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[1].s /bt_in">
+      <obj_property name="ElementShortName">bt_in[63:0]</obj_property>
+      <obj_property name="ObjectShortName">bt_in[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/final_row_num">
+      <obj_property name="ElementShortName">final_row_num[2:0]</obj_property>
+      <obj_property name="ObjectShortName">final_row_num[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/PE_bt_out_reg[7]">
+      <obj_property name="ElementShortName">[7][63:0]</obj_property>
+      <obj_property name="ObjectShortName">[7][63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[1].s /sum_select">
+      <obj_property name="ElementShortName">sum_select[2:0]</obj_property>
+      <obj_property name="ObjectShortName">sum_select[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[1].s /sum_select_0">
+      <obj_property name="ElementShortName">sum_select_0[2:0]</obj_property>
+      <obj_property name="ObjectShortName">sum_select_0[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/\sw_send[1].s /last_pe_vld">
+      <obj_property name="ElementShortName">last_pe_vld</obj_property>
+      <obj_property name="ObjectShortName">last_pe_vld</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/\sw_send[1].s /flag_4">
+      <obj_property name="ElementShortName">flag_4</obj_property>
+      <obj_property name="ObjectShortName">flag_4</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/p0/final_en">
+      <obj_property name="ElementShortName">final_en</obj_property>
+      <obj_property name="ObjectShortName">final_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/\sw_send[1].s /col_en">
+      <obj_property name="ElementShortName">col_en</obj_property>
+      <obj_property name="ObjectShortName">col_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/p0/final_en">
+      <obj_property name="ElementShortName">final_en</obj_property>
+      <obj_property name="ObjectShortName">final_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/p0/bt_en">
+      <obj_property name="ElementShortName">bt_en</obj_property>
+      <obj_property name="ObjectShortName">bt_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[1].s /cal_current_state">
+      <obj_property name="ElementShortName">cal_current_state[8:0]</obj_property>
+      <obj_property name="ObjectShortName">cal_current_state[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/\sw_send[1].s /bt_en">
+      <obj_property name="ElementShortName">bt_en</obj_property>
+      <obj_property name="ObjectShortName">bt_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[1].s /circle_cnt">
+      <obj_property name="ElementShortName">circle_cnt[13:0]</obj_property>
+      <obj_property name="ObjectShortName">circle_cnt[13:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[1].s /circle_left">
+      <obj_property name="ElementShortName">circle_left[3:0]</obj_property>
+      <obj_property name="ObjectShortName">circle_left[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[1].s /hap_cnt">
+      <obj_property name="ElementShortName">hap_cnt[15:0]</obj_property>
+      <obj_property name="ObjectShortName">hap_cnt[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/\sw_send[1].s /mode">
+      <obj_property name="ElementShortName">mode</obj_property>
+      <obj_property name="ObjectShortName">mode</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[1].s /son_cnt">
+      <obj_property name="ElementShortName">son_cnt[2:0]</obj_property>
+      <obj_property name="ObjectShortName">son_cnt[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[1].s /read_cnt">
+      <obj_property name="ElementShortName">read_cnt[15:0]</obj_property>
+      <obj_property name="ObjectShortName">read_cnt[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[1].s /sum_select">
+      <obj_property name="ElementShortName">sum_select[2:0]</obj_property>
+      <obj_property name="ObjectShortName">sum_select[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[1].s /circle_left">
+      <obj_property name="ElementShortName">circle_left[3:0]</obj_property>
+      <obj_property name="ObjectShortName">circle_left[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/PE_bt_out_reg[7]">
+      <obj_property name="ElementShortName">[7][63:0]</obj_property>
+      <obj_property name="ObjectShortName">[7][63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/PE_bt_out_reg[6]">
+      <obj_property name="ElementShortName">[6][63:0]</obj_property>
+      <obj_property name="ObjectShortName">[6][63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/PE_bt_out_reg[5]">
+      <obj_property name="ElementShortName">[5][63:0]</obj_property>
+      <obj_property name="ObjectShortName">[5][63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/PE_bt_out_reg[4]">
+      <obj_property name="ElementShortName">[4][63:0]</obj_property>
+      <obj_property name="ObjectShortName">[4][63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/PE_bt_out_reg[3]">
+      <obj_property name="ElementShortName">[3][63:0]</obj_property>
+      <obj_property name="ObjectShortName">[3][63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[1].s /cal_current_state">
+      <obj_property name="ElementShortName">cal_current_state[8:0]</obj_property>
+      <obj_property name="ObjectShortName">cal_current_state[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[1].s /son_cnt">
+      <obj_property name="ElementShortName">son_cnt[2:0]</obj_property>
+      <obj_property name="ObjectShortName">son_cnt[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/\sw_send[1].s /ram_bt_w_en">
+      <obj_property name="ElementShortName">ram_bt_w_en</obj_property>
+      <obj_property name="ObjectShortName">ram_bt_w_en</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[1].s /waddr">
+      <obj_property name="ElementShortName">waddr[10:0]</obj_property>
+      <obj_property name="ObjectShortName">waddr[10:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/p0/bt_flag">
+      <obj_property name="ElementShortName">bt_flag</obj_property>
+      <obj_property name="ObjectShortName">bt_flag</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/\sw_send[1].s /bt_flag_reg">
+      <obj_property name="ElementShortName">bt_flag_reg</obj_property>
+      <obj_property name="ObjectShortName">bt_flag_reg</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/final_row_num">
+      <obj_property name="ElementShortName">final_row_num[2:0]</obj_property>
+      <obj_property name="ObjectShortName">final_row_num[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/\sw_send[1].s /bt_flag">
+      <obj_property name="ElementShortName">bt_flag</obj_property>
+      <obj_property name="ObjectShortName">bt_flag</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[1].s /son_cnt">
+      <obj_property name="ElementShortName">son_cnt[2:0]</obj_property>
+      <obj_property name="ObjectShortName">son_cnt[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[1].s /cal_done_cnt">
+      <obj_property name="ElementShortName">cal_done_cnt[5:0]</obj_property>
+      <obj_property name="ObjectShortName">cal_done_cnt[5:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/\sw_send[1].s /tb_start">
+      <obj_property name="ElementShortName">tb_start</obj_property>
+      <obj_property name="ObjectShortName">tb_start</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/\sw_send[1].s /ram_bt_w_en">
+      <obj_property name="ElementShortName">ram_bt_w_en</obj_property>
+      <obj_property name="ObjectShortName">ram_bt_w_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[1].s /bt_in">
+      <obj_property name="ElementShortName">bt_in[63:0]</obj_property>
+      <obj_property name="ObjectShortName">bt_in[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[1].s /bt_in0_reg">
+      <obj_property name="ElementShortName">bt_in0_reg[63:0]</obj_property>
+      <obj_property name="ObjectShortName">bt_in0_reg[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[1].s /addra">
+      <obj_property name="ElementShortName">addra[10:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[10:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/\sw_send[1].s /tb_start">
+      <obj_property name="ElementShortName">tb_start</obj_property>
+      <obj_property name="ObjectShortName">tb_start</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[1].s /max_j">
+      <obj_property name="ElementShortName">max_j[15:0]</obj_property>
+      <obj_property name="ObjectShortName">max_j[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[1].s /t_len">
+      <obj_property name="ElementShortName">t_len[15:0]</obj_property>
+      <obj_property name="ObjectShortName">t_len[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/\sw_send[1].s /rd_en">
+      <obj_property name="ElementShortName">rd_en</obj_property>
+      <obj_property name="ObjectShortName">rd_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[1].s /raddr">
+      <obj_property name="ElementShortName">raddr[10:0]</obj_property>
+      <obj_property name="ObjectShortName">raddr[10:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[1].s /addra">
+      <obj_property name="ElementShortName">addra[10:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[10:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[1].s /cigar_dut/max_i">
+      <obj_property name="ElementShortName">max_i[7:0]</obj_property>
+      <obj_property name="ObjectShortName">max_i[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/\sw_send[1].s /rd_en">
+      <obj_property name="ElementShortName">rd_en</obj_property>
+      <obj_property name="ObjectShortName">rd_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[1].s /ram_bt_out">
+      <obj_property name="ElementShortName">ram_bt_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_bt_out[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[1].s /mask">
+      <obj_property name="ElementShortName">mask[2:0]</obj_property>
+      <obj_property name="ObjectShortName">mask[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[1].s /cigar_bt_in">
+      <obj_property name="ElementShortName">cigar_bt_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">cigar_bt_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[1].s /mask">
+      <obj_property name="ElementShortName">mask[2:0]</obj_property>
+      <obj_property name="ObjectShortName">mask[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[1].s /read_len">
+      <obj_property name="ElementShortName">read_len[15:0]</obj_property>
+      <obj_property name="ObjectShortName">read_len[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[1].s /max_i">
+      <obj_property name="ElementShortName">max_i[7:0]</obj_property>
+      <obj_property name="ObjectShortName">max_i[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[1].s /cigar_dut/i_pos">
+      <obj_property name="ElementShortName">i_pos[7:0]</obj_property>
+      <obj_property name="ObjectShortName">i_pos[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[1].s /read_len">
+      <obj_property name="ElementShortName">read_len[15:0]</obj_property>
+      <obj_property name="ObjectShortName">read_len[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/\sw_send[1].s /cigar_en">
+      <obj_property name="ElementShortName">cigar_en</obj_property>
+      <obj_property name="ObjectShortName">cigar_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[1].s /cigar_dut/done_cnt">
+      <obj_property name="ElementShortName">done_cnt[1:0]</obj_property>
+      <obj_property name="ObjectShortName">done_cnt[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[1].s /cigar">
+      <obj_property name="ElementShortName">cigar[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cigar[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[1].s /n_cigar">
+      <obj_property name="ElementShortName">n_cigar[7:0]</obj_property>
+      <obj_property name="ObjectShortName">n_cigar[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[1].s /cigar_dut/TB_state">
+      <obj_property name="ElementShortName">TB_state[5:0]</obj_property>
+      <obj_property name="ObjectShortName">TB_state[5:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[1].s /cigar_dut/max_i">
+      <obj_property name="ElementShortName">max_i[7:0]</obj_property>
+      <obj_property name="ObjectShortName">max_i[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[1].s /cigar_dut/max_j">
+      <obj_property name="ElementShortName">max_j[15:0]</obj_property>
+      <obj_property name="ObjectShortName">max_j[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[1].s /cigar_dut/hold_cnt">
+      <obj_property name="ElementShortName">hold_cnt[1:0]</obj_property>
+      <obj_property name="ObjectShortName">hold_cnt[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/\sw_send[1].s /cigar_dut/tb_done">
+      <obj_property name="ElementShortName">tb_done</obj_property>
+      <obj_property name="ObjectShortName">tb_done</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[1].s /bt_num">
+      <obj_property name="ElementShortName">bt_num[15:0]</obj_property>
+      <obj_property name="ObjectShortName">bt_num[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[1].s /unit_num">
+      <obj_property name="ElementShortName">unit_num[31:0]</obj_property>
+      <obj_property name="ObjectShortName">unit_num[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/rd_start">
+      <obj_property name="ElementShortName">rd_start</obj_property>
+      <obj_property name="ObjectShortName">rd_start</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/\sw_send[1].s /fifo_start">
+      <obj_property name="ElementShortName">fifo_start</obj_property>
+      <obj_property name="ObjectShortName">fifo_start</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/\sw_send[1].s /max_bt/sop_out">
+      <obj_property name="ElementShortName">sop_out</obj_property>
+      <obj_property name="ObjectShortName">sop_out</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/\sw_send[1].s /max_bt/vld_out">
+      <obj_property name="ElementShortName">vld_out</obj_property>
+      <obj_property name="ObjectShortName">vld_out</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[1].s /max_bt/data_out">
+      <obj_property name="ElementShortName">data_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/\sw_send[1].s /max_bt/eop_out">
+      <obj_property name="ElementShortName">eop_out</obj_property>
+      <obj_property name="ObjectShortName">eop_out</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/\sw_send[0].s /max_bt/sop_out">
+      <obj_property name="ElementShortName">sop_out</obj_property>
+      <obj_property name="ObjectShortName">sop_out</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/\sw_send[0].s /max_bt/vld_out">
+      <obj_property name="ElementShortName">vld_out</obj_property>
+      <obj_property name="ObjectShortName">vld_out</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[0].s /max_bt/data_out">
+      <obj_property name="ElementShortName">data_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/\sw_send[0].s /max_bt/eop_out">
+      <obj_property name="ElementShortName">eop_out</obj_property>
+      <obj_property name="ObjectShortName">eop_out</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/vld_out">
+      <obj_property name="ElementShortName">vld_out</obj_property>
+      <obj_property name="ObjectShortName">vld_out</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/eop_out">
+      <obj_property name="ElementShortName">eop_out</obj_property>
+      <obj_property name="ObjectShortName">eop_out</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/data_out">
+      <obj_property name="ElementShortName">data_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[1].s /max_bt/cur_state">
+      <obj_property name="ElementShortName">cur_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">cur_state[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/\sw_send[1].s /max_bt/max_rd_en">
+      <obj_property name="ElementShortName">max_rd_en</obj_property>
+      <obj_property name="ObjectShortName">max_rd_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[1].s /max_bt/max_result">
+      <obj_property name="ElementShortName">max_result[63:0]</obj_property>
+      <obj_property name="ObjectShortName">max_result[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[1].s /bt_result">
+      <obj_property name="ElementShortName">bt_result[63:0]</obj_property>
+      <obj_property name="ObjectShortName">bt_result[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/\sw_send[1].s /max_bt/bt_rd_en">
+      <obj_property name="ElementShortName">bt_rd_en</obj_property>
+      <obj_property name="ObjectShortName">bt_rd_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/\sw_send[1].s /max_bt/vld_out">
+      <obj_property name="ElementShortName">vld_out</obj_property>
+      <obj_property name="ObjectShortName">vld_out</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[1].s /max_bt/data_out">
+      <obj_property name="ElementShortName">data_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/rd_start">
+      <obj_property name="ElementShortName">rd_start</obj_property>
+      <obj_property name="ObjectShortName">rd_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider671" type="divider">
+      <obj_property name="label">save_send[0]</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/\sw_send[0].s /max_bt/vld_out">
+      <obj_property name="ElementShortName">vld_out</obj_property>
+      <obj_property name="ObjectShortName">vld_out</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/\sw_send[0].s /max_bt/eop_out">
+      <obj_property name="ElementShortName">eop_out</obj_property>
+      <obj_property name="ObjectShortName">eop_out</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/\sw_send[0].s /max_bt/sop_out">
+      <obj_property name="ElementShortName">sop_out</obj_property>
+      <obj_property name="ObjectShortName">sop_out</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[0].s /max_bt/data_out">
+      <obj_property name="ElementShortName">data_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[0].s /unit_num">
+      <obj_property name="ElementShortName">unit_num[31:0]</obj_property>
+      <obj_property name="ObjectShortName">unit_num[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[0].s /cigar_dut/n_cigar">
+      <obj_property name="ElementShortName">n_cigar[7:0]</obj_property>
+      <obj_property name="ObjectShortName">n_cigar[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[0].s /cigar_dut/TB_state">
+      <obj_property name="ElementShortName">TB_state[5:0]</obj_property>
+      <obj_property name="ObjectShortName">TB_state[5:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[0].s /cigar_dut/hold_cnt">
+      <obj_property name="ElementShortName">hold_cnt[1:0]</obj_property>
+      <obj_property name="ObjectShortName">hold_cnt[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/\sw_send[0].s /cigar_dut/init_flag">
+      <obj_property name="ElementShortName">init_flag</obj_property>
+      <obj_property name="ObjectShortName">init_flag</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[0].s /cigar_dut/cigar_reg0">
+      <obj_property name="ElementShortName">cigar_reg0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cigar_reg0[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/\sw_send[0].s /cigar_dut/cigar_en">
+      <obj_property name="ElementShortName">cigar_en</obj_property>
+      <obj_property name="ObjectShortName">cigar_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[0].s /cigar_dut/cigar">
+      <obj_property name="ElementShortName">cigar[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cigar[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[0].s /cigar_dut/op">
+      <obj_property name="ElementShortName">op[7:0]</obj_property>
+      <obj_property name="ObjectShortName">op[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/\sw_send[0].s /cigar_dut/rd_en">
+      <obj_property name="ElementShortName">rd_en</obj_property>
+      <obj_property name="ObjectShortName">rd_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[0].s /mask">
+      <obj_property name="ElementShortName">mask[2:0]</obj_property>
+      <obj_property name="ObjectShortName">mask[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[0].s /ram_bt_out">
+      <obj_property name="ElementShortName">ram_bt_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_bt_out[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[0].s /cigar_dut/bt_in">
+      <obj_property name="ElementShortName">bt_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">bt_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[0].s /cigar_dut/which">
+      <obj_property name="ElementShortName">which[7:0]</obj_property>
+      <obj_property name="ObjectShortName">which[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[0].s /cigar_dut/max_i">
+      <obj_property name="ElementShortName">max_i[7:0]</obj_property>
+      <obj_property name="ObjectShortName">max_i[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[0].s /cigar_dut/max_j">
+      <obj_property name="ElementShortName">max_j[15:0]</obj_property>
+      <obj_property name="ObjectShortName">max_j[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[0].s /cigar_dut/done_cnt">
+      <obj_property name="ElementShortName">done_cnt[1:0]</obj_property>
+      <obj_property name="ObjectShortName">done_cnt[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[0].s /unit_num">
+      <obj_property name="ElementShortName">unit_num[31:0]</obj_property>
+      <obj_property name="ObjectShortName">unit_num[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/\sw_send[0].s /tb_done">
+      <obj_property name="ElementShortName">tb_done</obj_property>
+      <obj_property name="ObjectShortName">tb_done</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[0].s /done_cnt">
+      <obj_property name="ElementShortName">done_cnt[6:0]</obj_property>
+      <obj_property name="ObjectShortName">done_cnt[6:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[0].s /current_state">
+      <obj_property name="ElementShortName">current_state[10:0]</obj_property>
+      <obj_property name="ObjectShortName">current_state[10:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[0].s /cigar_dut/len">
+      <obj_property name="ElementShortName">len[15:0]</obj_property>
+      <obj_property name="ObjectShortName">len[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[0].s /current_state">
+      <obj_property name="ElementShortName">current_state[10:0]</obj_property>
+      <obj_property name="ObjectShortName">current_state[10:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/fifo_write_en">
+      <obj_property name="ElementShortName">fifo_write_en</obj_property>
+      <obj_property name="ObjectShortName">fifo_write_en</obj_property>
+   </wvobject>
+</wave_config>

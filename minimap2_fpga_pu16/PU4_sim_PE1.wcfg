@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="test_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="9718000000fs"></ZoomStartTime>
+      <ZoomEndTime time="9997000001fs"></ZoomEndTime>
+      <Cursor1Time time="9812800000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="203"></NameColumnWidth>
+      <ValueColumnWidth column_width="211"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="156" />
+   <wave_markers>
+      <marker label="" time="10299450000" />
+      <marker label="" time="9810200000" />
+   </wave_markers>
+   <wvobject fp_name="divider127" type="divider">
+      <obj_property name="label">CMP_MAX_3</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/final_row_en">
+      <obj_property name="ElementShortName">final_row_en[13:0]</obj_property>
+      <obj_property name="ObjectShortName">final_row_en[13:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/p0/final_en">
+      <obj_property name="ElementShortName">final_en</obj_property>
+      <obj_property name="ObjectShortName">final_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/p0/H_col_max_en">
+      <obj_property name="ElementShortName">H_col_max_en</obj_property>
+      <obj_property name="ObjectShortName">H_col_max_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/p0/max_en_6">
+      <obj_property name="ElementShortName">max_en_6</obj_property>
+      <obj_property name="ObjectShortName">max_en_6</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/p0/pe0/mode">
+      <obj_property name="ElementShortName">mode</obj_property>
+      <obj_property name="ObjectShortName">mode</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/p0/mode_reg_6">
+      <obj_property name="ElementShortName">mode_reg_6</obj_property>
+      <obj_property name="ObjectShortName">mode_reg_6</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider146" type="divider">
+      <obj_property name="label">COL_CMP_0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/p0/H_col_max_en">
+      <obj_property name="ElementShortName">H_col_max_en</obj_property>
+      <obj_property name="ObjectShortName">H_col_max_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/col_cmp_0/value_0">
+      <obj_property name="ElementShortName">value_0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">value_0[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/col_cmp_0/value_1">
+      <obj_property name="ElementShortName">value_1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">value_1[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/col_cmp_0/max">
+      <obj_property name="ElementShortName">max[15:0]</obj_property>
+      <obj_property name="ObjectShortName">max[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider147" type="divider">
+      <obj_property name="label">COL_CMP_1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/p0/pe0/start_out">
+      <obj_property name="ElementShortName">start_out</obj_property>
+      <obj_property name="ObjectShortName">start_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider159" type="divider">
+      <obj_property name="label">CMP_LOCATION0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/p0/col_cmp_0/en">
+      <obj_property name="ElementShortName">en</obj_property>
+      <obj_property name="ObjectShortName">en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/MAX_cmp_0/value_0">
+      <obj_property name="ElementShortName">value_0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">value_0[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/MAX_cmp_0/value_1">
+      <obj_property name="ElementShortName">value_1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">value_1[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/MAX_cmp_0/max">
+      <obj_property name="ElementShortName">max[15:0]</obj_property>
+      <obj_property name="ObjectShortName">max[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider164" type="divider">
+      <obj_property name="label">CMP_LOCATION_1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/p0/col_cmp_0/en_out">
+      <obj_property name="ElementShortName">en_out</obj_property>
+      <obj_property name="ObjectShortName">en_out</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/p0/start_in_reg_0">
+      <obj_property name="ElementShortName">start_in_reg_0</obj_property>
+      <obj_property name="ObjectShortName">start_in_reg_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider173" type="divider">
+      <obj_property name="label">CMP_LOCATION_2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/p0/H_col_max_en">
+      <obj_property name="ElementShortName">H_col_max_en</obj_property>
+      <obj_property name="ObjectShortName">H_col_max_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider174" type="divider">
+      <obj_property name="label">CMP_LOCATION_3</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/p0/f0_final_en">
+      <obj_property name="ElementShortName">f0_final_en</obj_property>
+      <obj_property name="ObjectShortName">f0_final_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/f0_final_row_num">
+      <obj_property name="ElementShortName">f0_final_row_num[5:0]</obj_property>
+      <obj_property name="ObjectShortName">f0_final_row_num[5:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider1597" type="divider">
+      <obj_property name="label">Diagonal_socre</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/diagonal_score">
+      <obj_property name="ElementShortName">diagonal_score[15:0]</obj_property>
+      <obj_property name="ObjectShortName">diagonal_score[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider1605" type="divider">
+      <obj_property name="label">H_max</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/\sw_send[0].s /fifo_H/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/\sw_send[0].s /wrreq">
+      <obj_property name="ElementShortName">wrreq</obj_property>
+      <obj_property name="ObjectShortName">wrreq</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[0].s /H_write">
+      <obj_property name="ElementShortName">H_write[15:0]</obj_property>
+      <obj_property name="ObjectShortName">H_write[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/\sw_send[0].s /rdreq">
+      <obj_property name="ElementShortName">rdreq</obj_property>
+      <obj_property name="ObjectShortName">rdreq</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[0].s /fifo_H_q">
+      <obj_property name="ElementShortName">fifo_H_q[15:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_H_q[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[0].s /H_i_j_fifo">
+      <obj_property name="ElementShortName">H_i_j_fifo[15:0]</obj_property>
+      <obj_property name="ObjectShortName">H_i_j_fifo[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/\PE_ARRAY[31].pe /H_max_out">
+      <obj_property name="ElementShortName">H_max_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">H_max_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/\PE_ARRAY[31].pe /location_out">
+      <obj_property name="ElementShortName">location_out[23:0]</obj_property>
+      <obj_property name="ObjectShortName">location_out[23:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/PE_location_row_out[0]">
+      <obj_property name="ElementShortName">[0][23:0]</obj_property>
+      <obj_property name="ObjectShortName">[0][23:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/PE_H_row_max[0]">
+      <obj_property name="ElementShortName">[0][15:0]</obj_property>
+      <obj_property name="ObjectShortName">[0][15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/H_i_j_fifo">
+      <obj_property name="ElementShortName">H_i_j_fifo[15:0]</obj_property>
+      <obj_property name="ObjectShortName">H_i_j_fifo[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/p0/max_en_6">
+      <obj_property name="ElementShortName">max_en_6</obj_property>
+      <obj_property name="ObjectShortName">max_en_6</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/H_row_max_0_reg_5">
+      <obj_property name="ElementShortName">H_row_max_0_reg_5[15:0]</obj_property>
+      <obj_property name="ObjectShortName">H_row_max_0_reg_5[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/location_row_out_0_reg_5">
+      <obj_property name="ElementShortName">location_row_out_0_reg_5[23:0]</obj_property>
+      <obj_property name="ObjectShortName">location_row_out_0_reg_5[23:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/p0/mode_reg_6">
+      <obj_property name="ElementShortName">mode_reg_6</obj_property>
+      <obj_property name="ObjectShortName">mode_reg_6</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/p0/f0_final_en">
+      <obj_property name="ElementShortName">f0_final_en</obj_property>
+      <obj_property name="ObjectShortName">f0_final_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/CMP_H_max_out[0]">
+      <obj_property name="ElementShortName">[0][15:0]</obj_property>
+      <obj_property name="ObjectShortName">[0][15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/CMP_location_out[0]">
+      <obj_property name="ElementShortName">[0][23:0]</obj_property>
+      <obj_property name="ObjectShortName">[0][23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider1348" type="divider">
+      <obj_property name="label">PE31</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/p0/mode">
+      <obj_property name="ElementShortName">mode</obj_property>
+      <obj_property name="ObjectShortName">mode</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/H_i_j_fifo">
+      <obj_property name="ElementShortName">H_i_j_fifo[15:0]</obj_property>
+      <obj_property name="ObjectShortName">H_i_j_fifo[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider1654" type="divider">
+      <obj_property name="label">H_col_max</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/H_col_max">
+      <obj_property name="ElementShortName">H_col_max[15:0]</obj_property>
+      <obj_property name="ObjectShortName">H_col_max[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/H_col_max_location">
+      <obj_property name="ElementShortName">H_col_max_location[23:0]</obj_property>
+      <obj_property name="ObjectShortName">H_col_max_location[23:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/p0/final_en">
+      <obj_property name="ElementShortName">final_en</obj_property>
+      <obj_property name="ObjectShortName">final_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/final_row_num">
+      <obj_property name="ElementShortName">final_row_num[5:0]</obj_property>
+      <obj_property name="ObjectShortName">final_row_num[5:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/H_col_max_location">
+      <obj_property name="ElementShortName">H_col_max_location[23:0]</obj_property>
+      <obj_property name="ObjectShortName">H_col_max_location[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider1659" type="divider">
+      <obj_property name="label">H_row_max</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/H_row_max_last">
+      <obj_property name="ElementShortName">H_row_max_last[15:0]</obj_property>
+      <obj_property name="ObjectShortName">H_row_max_last[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/H_row_max_last_location">
+      <obj_property name="ElementShortName">H_row_max_last_location[23:0]</obj_property>
+      <obj_property name="ObjectShortName">H_row_max_last_location[23:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[0].s /read_cnt">
+      <obj_property name="ElementShortName">read_cnt[7:0]</obj_property>
+      <obj_property name="ObjectShortName">read_cnt[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider1267" type="divider">
+      <obj_property name="label">PE19</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/p0/\PE_ARRAY[19].pe /max_en">
+      <obj_property name="ElementShortName">max_en</obj_property>
+      <obj_property name="ObjectShortName">max_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/\PE_ARRAY[19].pe /Ns">
+      <obj_property name="ElementShortName">Ns[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Ns[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/\PE_ARRAY[19].pe /Nr">
+      <obj_property name="ElementShortName">Nr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Nr[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/p0/\PE_ARRAY[19].pe /start_out">
+      <obj_property name="ElementShortName">start_out</obj_property>
+      <obj_property name="ObjectShortName">start_out</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/p0/\PE_ARRAY[19].pe /start_in">
+      <obj_property name="ElementShortName">start_in</obj_property>
+      <obj_property name="ObjectShortName">start_in</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/MUX6to64_INST/en_out">
+      <obj_property name="ElementShortName">en_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">en_out[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/\PE_ARRAY[19].pe /E1_temp">
+      <obj_property name="ElementShortName">E1_temp[15:0]</obj_property>
+      <obj_property name="ObjectShortName">E1_temp[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/\PE_ARRAY[19].pe /E2_temp">
+      <obj_property name="ElementShortName">E2_temp[15:0]</obj_property>
+      <obj_property name="ObjectShortName">E2_temp[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/\PE_ARRAY[19].pe /F1_temp">
+      <obj_property name="ElementShortName">F1_temp[15:0]</obj_property>
+      <obj_property name="ObjectShortName">F1_temp[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/\PE_ARRAY[19].pe /F2_temp">
+      <obj_property name="ElementShortName">F2_temp[15:0]</obj_property>
+      <obj_property name="ObjectShortName">F2_temp[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/\PE_ARRAY[19].pe /H_temp_reg_0">
+      <obj_property name="ElementShortName">H_temp_reg_0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">H_temp_reg_0[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/\PE_ARRAY[19].pe /E1_out">
+      <obj_property name="ElementShortName">E1_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">E1_out[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/\PE_ARRAY[19].pe /F1_out">
+      <obj_property name="ElementShortName">F1_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">F1_out[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/\PE_ARRAY[19].pe /E2_out">
+      <obj_property name="ElementShortName">E2_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">E2_out[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/\PE_ARRAY[19].pe /F2_out">
+      <obj_property name="ElementShortName">F2_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">F2_out[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/\PE_ARRAY[19].pe /H_out_reg_2">
+      <obj_property name="ElementShortName">H_out_reg_2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">H_out_reg_2[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[3].s /hap_len">
+      <obj_property name="ElementShortName">hap_len[15:0]</obj_property>
+      <obj_property name="ObjectShortName">hap_len[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[3].s /read_len">
+      <obj_property name="ElementShortName">read_len[7:0]</obj_property>
+      <obj_property name="ObjectShortName">read_len[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/p0/start_in">
+      <obj_property name="ElementShortName">start_in</obj_property>
+      <obj_property name="ObjectShortName">start_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider1372" type="divider">
+      <obj_property name="label">PE55</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/shift_reg">
+      <obj_property name="ElementShortName">shift_reg[6:0]</obj_property>
+      <obj_property name="ObjectShortName">shift_reg[6:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/final_row_en">
+      <obj_property name="ElementShortName">final_row_en[13:0]</obj_property>
+      <obj_property name="ObjectShortName">final_row_en[13:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/final_row_en">
+      <obj_property name="ElementShortName">final_row_en[13:0]</obj_property>
+      <obj_property name="ObjectShortName">final_row_en[13:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/sw_final_row_en[3]">
+      <obj_property name="ElementShortName">[3][13:0]</obj_property>
+      <obj_property name="ObjectShortName">[3][13:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/p0/\PE_ARRAY[55].pe /MAX_cmp/f5_clear">
+      <obj_property name="ElementShortName">f5_clear</obj_property>
+      <obj_property name="ObjectShortName">f5_clear</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/\PE_ARRAY[55].pe /MAX_cmp/num">
+      <obj_property name="ElementShortName">num[15:0]</obj_property>
+      <obj_property name="ObjectShortName">num[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDMAGRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/\PE_ARRAY[55].pe /MAX_cmp/max_5">
+      <obj_property name="ElementShortName">max_5[15:0]</obj_property>
+      <obj_property name="ObjectShortName">max_5[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/p0/final_en">
+      <obj_property name="ElementShortName">final_en</obj_property>
+      <obj_property name="ObjectShortName">final_en</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/p0/MUX6to64_INST/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/p0/MUX6to64_INST/rst_n">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/MUX6to64_INST/code_in">
+      <obj_property name="ElementShortName">code_in[5:0]</obj_property>
+      <obj_property name="ObjectShortName">code_in[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/MUX6to64_INST/en_out">
+      <obj_property name="ElementShortName">en_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">en_out[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/p0/PE_start_out[55]">
+      <obj_property name="ElementShortName">[55]</obj_property>
+      <obj_property name="ObjectShortName">[55]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/p0/\PE_ARRAY[55].pe /start_in">
+      <obj_property name="ElementShortName">start_in</obj_property>
+      <obj_property name="ObjectShortName">start_in</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/p0/\PE_ARRAY[55].pe /start_out">
+      <obj_property name="ElementShortName">start_out</obj_property>
+      <obj_property name="ObjectShortName">start_out</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/\PE_ARRAY[55].pe /H_out_reg_1">
+      <obj_property name="ElementShortName">H_out_reg_1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">H_out_reg_1[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/\PE_ARRAY[55].pe /location_in_reg_5">
+      <obj_property name="ElementShortName">location_in_reg_5[23:0]</obj_property>
+      <obj_property name="ObjectShortName">location_in_reg_5[23:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/\PE_ARRAY[55].pe /Ns">
+      <obj_property name="ElementShortName">Ns[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Ns[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/\PE_ARRAY[55].pe /Nr">
+      <obj_property name="ElementShortName">Nr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Nr[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/\PE_ARRAY[55].pe /H_temp_reg_0">
+      <obj_property name="ElementShortName">H_temp_reg_0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">H_temp_reg_0[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/\PE_ARRAY[55].pe /F1_temp">
+      <obj_property name="ElementShortName">F1_temp[15:0]</obj_property>
+      <obj_property name="ObjectShortName">F1_temp[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/\PE_ARRAY[55].pe /E1_temp">
+      <obj_property name="ElementShortName">E1_temp[15:0]</obj_property>
+      <obj_property name="ObjectShortName">E1_temp[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/\PE_ARRAY[55].pe /H_out_reg_2">
+      <obj_property name="ElementShortName">H_out_reg_2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">H_out_reg_2[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/\PE_ARRAY[55].pe /H_max_out">
+      <obj_property name="ElementShortName">H_max_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">H_max_out[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/PE_H_row_max[55]">
+      <obj_property name="ElementShortName">[55][15:0]</obj_property>
+      <obj_property name="ObjectShortName">[55][15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/H_row_max_last_reg">
+      <obj_property name="ElementShortName">H_row_max_last_reg[15:0]</obj_property>
+      <obj_property name="ObjectShortName">H_row_max_last_reg[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[3].s /final_row_en">
+      <obj_property name="ElementShortName">final_row_en[13:0]</obj_property>
+      <obj_property name="ObjectShortName">final_row_en[13:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/sw_final_row_en[3]">
+      <obj_property name="ElementShortName">[3][13:0]</obj_property>
+      <obj_property name="ObjectShortName">[3][13:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/shift_reg">
+      <obj_property name="ElementShortName">shift_reg[6:0]</obj_property>
+      <obj_property name="ObjectShortName">shift_reg[6:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/final_row_en">
+      <obj_property name="ElementShortName">final_row_en[13:0]</obj_property>
+      <obj_property name="ObjectShortName">final_row_en[13:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/pe0/Ns">
+      <obj_property name="ElementShortName">Ns[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Ns[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/pe0/Nr">
+      <obj_property name="ElementShortName">Nr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Nr[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider1403" type="divider">
+      <obj_property name="label">save_send[[3]</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[3].s /Ns">
+      <obj_property name="ElementShortName">Ns[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Ns[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[3].s /Nr">
+      <obj_property name="ElementShortName">Nr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Nr[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[3].s /final_row_en">
+      <obj_property name="ElementShortName">final_row_en[13:0]</obj_property>
+      <obj_property name="ObjectShortName">final_row_en[13:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[3].s /hap_len">
+      <obj_property name="ElementShortName">hap_len[15:0]</obj_property>
+      <obj_property name="ObjectShortName">hap_len[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[3].s /read_len">
+      <obj_property name="ElementShortName">read_len[7:0]</obj_property>
+      <obj_property name="ObjectShortName">read_len[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[3].s /current_state">
+      <obj_property name="ElementShortName">current_state[9:0]</obj_property>
+      <obj_property name="ObjectShortName">current_state[9:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[3].s /cal_current_state">
+      <obj_property name="ElementShortName">cal_current_state[8:0]</obj_property>
+      <obj_property name="ObjectShortName">cal_current_state[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/\sw_send[3].s /start_in">
+      <obj_property name="ElementShortName">start_in</obj_property>
+      <obj_property name="ObjectShortName">start_in</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/final_row_num">
+      <obj_property name="ElementShortName">final_row_num[5:0]</obj_property>
+      <obj_property name="ObjectShortName">final_row_num[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[3].s /circle_left">
+      <obj_property name="ElementShortName">circle_left[6:0]</obj_property>
+      <obj_property name="ObjectShortName">circle_left[6:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[3].s /circle_cnt">
+      <obj_property name="ElementShortName">circle_cnt[5:0]</obj_property>
+      <obj_property name="ObjectShortName">circle_cnt[5:0]</obj_property>
+      <obj_property name="Radix">SIGNEDMAGRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[3].s /circle_sum">
+      <obj_property name="ElementShortName">circle_sum[5:0]</obj_property>
+      <obj_property name="ObjectShortName">circle_sum[5:0]</obj_property>
+      <obj_property name="Radix">SIGNEDMAGRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[3].s /read_cnt">
+      <obj_property name="ElementShortName">read_cnt[7:0]</obj_property>
+      <obj_property name="ObjectShortName">read_cnt[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDMAGRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[3].s /hap_cnt">
+      <obj_property name="ElementShortName">hap_cnt[15:0]</obj_property>
+      <obj_property name="ObjectShortName">hap_cnt[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDMAGRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/\sw_send[3].s /flag_4">
+      <obj_property name="ElementShortName">flag_4</obj_property>
+      <obj_property name="ObjectShortName">flag_4</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/p0/\PE_ARRAY[55].pe /max_en">
+      <obj_property name="ElementShortName">max_en</obj_property>
+      <obj_property name="ObjectShortName">max_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[3].s /sum_select_0">
+      <obj_property name="ElementShortName">sum_select_0[5:0]</obj_property>
+      <obj_property name="ObjectShortName">sum_select_0[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[3].s /sum_select">
+      <obj_property name="ElementShortName">sum_select[5:0]</obj_property>
+      <obj_property name="ObjectShortName">sum_select[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/\sw_send[3].s /last_pe_vld">
+      <obj_property name="ElementShortName">last_pe_vld</obj_property>
+      <obj_property name="ObjectShortName">last_pe_vld</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/\sw_send[3].s /col_en">
+      <obj_property name="ElementShortName">col_en</obj_property>
+      <obj_property name="ObjectShortName">col_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[3].s /final_row_en">
+      <obj_property name="ElementShortName">final_row_en[13:0]</obj_property>
+      <obj_property name="ObjectShortName">final_row_en[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider1410" type="divider">
+      <obj_property name="label">PE0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/p0/pe0/start_in">
+      <obj_property name="ElementShortName">start_in</obj_property>
+      <obj_property name="ObjectShortName">start_in</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/p0/pe0/start_out">
+      <obj_property name="ElementShortName">start_out</obj_property>
+      <obj_property name="ObjectShortName">start_out</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/pe0/Ns">
+      <obj_property name="ElementShortName">Ns[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Ns[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/pe0/Nr">
+      <obj_property name="ElementShortName">Nr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Nr[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider1567" type="divider">
+      <obj_property name="label">PE55</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/p0/\PE_ARRAY[55].pe /start_in">
+      <obj_property name="ElementShortName">start_in</obj_property>
+      <obj_property name="ObjectShortName">start_in</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/p0/\PE_ARRAY[55].pe /start_out">
+      <obj_property name="ElementShortName">start_out</obj_property>
+      <obj_property name="ObjectShortName">start_out</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/p0/final_en">
+      <obj_property name="ElementShortName">final_en</obj_property>
+      <obj_property name="ObjectShortName">final_en</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/\PE_ARRAY[55].pe /Nr">
+      <obj_property name="ElementShortName">Nr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Nr[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/\PE_ARRAY[55].pe /Ns">
+      <obj_property name="ElementShortName">Ns[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Ns[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/p0/\PE_ARRAY[55].pe /MAX_cmp/en">
+      <obj_property name="ElementShortName">en</obj_property>
+      <obj_property name="ObjectShortName">en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/p0/\PE_ARRAY[55].pe /MAX_cmp/clear">
+      <obj_property name="ElementShortName">clear</obj_property>
+      <obj_property name="ObjectShortName">clear</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/\PE_ARRAY[55].pe /MAX_cmp/num">
+      <obj_property name="ElementShortName">num[15:0]</obj_property>
+      <obj_property name="ObjectShortName">num[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/\PE_ARRAY[55].pe /MAX_cmp/location_in">
+      <obj_property name="ElementShortName">location_in[23:0]</obj_property>
+      <obj_property name="ObjectShortName">location_in[23:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/\PE_ARRAY[55].pe /MAX_cmp/location_out">
+      <obj_property name="ElementShortName">location_out[23:0]</obj_property>
+      <obj_property name="ObjectShortName">location_out[23:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/\PE_ARRAY[55].pe /MAX_cmp/max">
+      <obj_property name="ElementShortName">max[15:0]</obj_property>
+      <obj_property name="ObjectShortName">max[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[3].s /current_state">
+      <obj_property name="ElementShortName">current_state[9:0]</obj_property>
+      <obj_property name="ObjectShortName">current_state[9:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/shift_reg">
+      <obj_property name="ElementShortName">shift_reg[6:0]</obj_property>
+      <obj_property name="ObjectShortName">shift_reg[6:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/p0/PE_start_out">
+      <obj_property name="ElementShortName">PE_start_out[0:63]</obj_property>
+      <obj_property name="ObjectShortName">PE_start_out[0:63]</obj_property>
+   </wvobject>
+</wave_config>

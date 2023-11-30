@@ -1,0 +1,6 @@
+verilog xil_defaultlib  \
+"../../../../minimap_fpga.srcs/sources_1/ip/fifo_64X32_32X64/sim/fifo_64X32_32X64.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="test_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="2269333333fs"></ZoomStartTime>
+      <ZoomEndTime time="7569333334fs"></ZoomEndTime>
+      <Cursor1Time time="6686000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="178"></NameColumnWidth>
+      <ValueColumnWidth column_width="152"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="divider3452" type="divider">
+      <obj_property name="label">uut_7</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut/\sw_send[0].s /current_state">
+      <obj_property name="ElementShortName">current_state[10:0]</obj_property>
+      <obj_property name="ObjectShortName">current_state[10:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut/fifo_write_en">
+      <obj_property name="ElementShortName">fifo_write_en</obj_property>
+      <obj_property name="ObjectShortName">fifo_write_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider2655" type="divider">
+      <obj_property name="label">uut_16</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut_16/fifo_write_en">
+      <obj_property name="ElementShortName">fifo_write_en</obj_property>
+      <obj_property name="ObjectShortName">fifo_write_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut_16/\sw_send[0].s /current_state">
+      <obj_property name="ElementShortName">current_state[10:0]</obj_property>
+      <obj_property name="ObjectShortName">current_state[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider2656" type="divider">
+      <obj_property name="label">uut_32</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut_32/fifo_write_en">
+      <obj_property name="ElementShortName">fifo_write_en</obj_property>
+      <obj_property name="ObjectShortName">fifo_write_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut_32/\sw_send[0].s /current_state">
+      <obj_property name="ElementShortName">current_state[10:0]</obj_property>
+      <obj_property name="ObjectShortName">current_state[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider2657" type="divider">
+      <obj_property name="label">uut_64</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut_64/fifo_write_en">
+      <obj_property name="ElementShortName">fifo_write_en</obj_property>
+      <obj_property name="ObjectShortName">fifo_write_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut_64/\sw_send[0].s /current_state">
+      <obj_property name="ElementShortName">current_state[10:0]</obj_property>
+      <obj_property name="ObjectShortName">current_state[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider2658" type="divider">
+      <obj_property name="label">uut_128</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test/uut_128/fifo_write_en">
+      <obj_property name="ElementShortName">fifo_write_en</obj_property>
+      <obj_property name="ObjectShortName">fifo_write_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test/uut_128/\sw_send[0].s /current_state">
+      <obj_property name="ElementShortName">current_state[10:0]</obj_property>
+      <obj_property name="ObjectShortName">current_state[10:0]</obj_property>
+   </wvobject>
+</wave_config>
